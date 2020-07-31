@@ -14,15 +14,47 @@
         >
           GitHub
         </a>
+        <a
+          href="https://old.ifkash.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          Old website
+        </a>
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/resume%2FMy%20CV%20-%20updated.pdf?alt=media&token=5047c340-8a3b-416c-bb35-6cad92257afd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          Resume
+        </a>
+        <a
+          href="https://leetcode.com/ifkash"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          LeetCode
+        </a>
+        <a
+          href="http://linkedin.com/in/kashifulhaque"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({});
 </script>
 
 <style>
@@ -41,8 +73,8 @@ export default Vue.extend({})
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
