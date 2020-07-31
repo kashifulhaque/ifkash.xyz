@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "develop": "nuxt-ts",
+    "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
@@ -12,7 +12,8 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
     "axios": "^0.19.2",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "vercel": "^19.2.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",

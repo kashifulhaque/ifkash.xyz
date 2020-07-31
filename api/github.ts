@@ -1,6 +1,13 @@
-const axios = require('axios').default
-import { NowRequest, NowResponse } from '@vercel/node'
+const axios = require("axios").default;
+import { NowRequest, NowResponse } from "@vercel/node";
 
-export default (req: NowRequest, res: NowResponse) => {
-  res.json({ name: 'John', email: 'john@example.com' })
-}
+export default async (req: NowRequest, res: NowResponse) => {
+  try {
+    const url: String = "https://api.github.com/users/kashifulhaque";
+    const data = await axios.get(url);
+
+    res.json(data.data);
+  } catch (err) {
+    console.log(err);
+  }
+};
