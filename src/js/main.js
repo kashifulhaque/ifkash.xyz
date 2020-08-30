@@ -135,5 +135,5 @@ window.addEventListener("resize", () => {
   camera.updateProjectionMatrix();
 });
 
-// Play animation upon clicking
+// Play animation upon MOUSE HOVER
 window.addEventListener("mousemove", onMouseHover);
